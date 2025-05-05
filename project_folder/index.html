@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!-- Leaflet's stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Styling of marker cluster plugin -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    <!--  -->
+    <title>Web GIS</title>
+  </head>
+  <body>
+
+  <!--banner-->
+    <div class= "banner">
+        <img src="img/banner.jpg" alt="taust">
+    </div>
+
+    <!--navbar-->
+    <nav class="navbar">
+      <a href="index.html" class="active">Basic Map</a>
+      <a href="choroplethmap.html"> Choropleth Map </a>
+      <a href="heatmap.html"> Heatmap</a>
+    </nav>
+
+    <!-- page title-->
+     <div class="title">
+      <h1> Web GIS application</h1>
+     </div>
+     
+     <button onclick="defaultMapSettings()">Default</button>
+     <!--conteiner-->
+     <div class="conteiner">
+
+      <!-- map element-->
+     <div id="map"> </div>
+     
+     <!-- footer-->
+     <footer class="footer">© Vete-Mari Kuningas, Tartu University, 2025</footer>
+     
+     <!--Leaflet's script-->
+     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+     <!-- script of marker cluster plugin -->
+     <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script> 
+     
+     <script src="js/javascript.js"></script>
+
+    </body>
+
+</html>

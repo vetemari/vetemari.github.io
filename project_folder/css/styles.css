@@ -1,0 +1,71 @@
+
+.banner img {
+     width: 100%;
+     height: auto;  
+     max-height: 250px;
+     object-fit: cover; 
+    }
+
+
+.navbar a {
+    padding: 10px;
+    margin: 10px 15px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(7, 117, 80);
+    font-size: 18px;
+}
+
+.navbar a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.navbar a.active {
+    color: rgb(184, 13, 13);
+    text-decoration: underline;
+}
+
+
+.title h1 {
+    text-align: center;
+    color: rgb(206, 178, 144);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.conteiner {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#map {
+    height: 700px;
+    background-color: #f0f0f0;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: left;
+    font-size: medium;
+    background-color: ghostwhite;
+    color: rgb(7, 117, 80);
+}
+
+button {
+    padding-left: 5%;
+    padding: 8px 8px;
+    margin: 1%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
